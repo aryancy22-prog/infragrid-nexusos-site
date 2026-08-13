@@ -39,7 +39,13 @@ export default function Home() {
     <main>
       <header className="site-header">
         <a className="brand" href="#top" aria-label="IGNOS sponsorship home">
-          <span className="brand-mark">IN</span>
+          <img
+            className="brand-logo"
+            src="/ignos-logo-transparent.png"
+            alt="InfraGrid-NexusOS logo"
+            width={58}
+            height={58}
+          />
           <span>InfraGrid-NexusOS</span>
         </a>
         <nav aria-label="Page navigation">
