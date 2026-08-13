@@ -20,17 +20,16 @@ nav { display: flex; font-family: "Courier New", Courier, monospace; font-size: 
 nav a:hover, nav a:focus-visible { color: #3a6410; }
 
 .hero {
-  background-color: #0a1f19;
-  background-image:
-    linear-gradient(90deg, rgba(7, 22, 18, 0.88), rgba(7, 22, 18, 0.35)),
-    url("/ignos-hero.png");
+  aspect-ratio: 1672 / 941;
+  background-color: #000;
+  background-image: url("/ignos-hero.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   color: white;
-  min-height: 740px;
+  min-height: 0;
   overflow: hidden;
-  padding: 110px 7vw 0;
+  padding: 0;
   position: relative;
 }
 .hero-grid { background-image: linear-gradient(rgba(185, 242, 39, 0.08) 1px, transparent 1px), linear-gradient(90deg, rgba(185, 242, 39, 0.08) 1px, transparent 1px); background-size: 64px 64px; inset: 0; mask-image: linear-gradient(to bottom right, black, transparent 70%); position: absolute; }
@@ -44,9 +43,10 @@ nav a:hover, nav a:focus-visible { color: #3a6410; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 38px; position: relative; }
 .hero .hero-image-actions {
   bottom: 190px;
-  left: 7vw;
+  left: auto;
   margin-top: 0;
   position: absolute;
+  right: 7vw;
   z-index: 2;
 }
 .button { align-items: center; border: 1px solid transparent; display: inline-flex; font-family: "Courier New", Courier, monospace; font-size: 0.78rem; font-weight: 700; justify-content: center; letter-spacing: 0.06em; min-height: 48px; padding: 0 22px; text-transform: uppercase; transition: transform 160ms ease, background 160ms ease; }
