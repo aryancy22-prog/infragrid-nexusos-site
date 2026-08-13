@@ -48,7 +48,7 @@ export default function Home() {
           />
           <span>InfraGrid-NexusOS</span>
         </a>
-        <nav aria-label="Page navigation">
+        <nav aria-label="Page navigation" <a href="#contact">Contact</a>>
           <a href="#project">Project</a>
           <a href="#request">Request</a>
           <a href="#validation">Validation</a>
@@ -183,14 +183,18 @@ export default function Home() {
             <span className="section-kicker">Start a conversation</span>
             <h2>Could your team help move IGNOS from software proof to physical validation?</h2>
           </div>
-          <div className="contact-copy">
+        <div className="contact-copy">
             <p>
-              If Anthony shared this page with you directly, please reply to
-              his outreach email. The request can also be forwarded to your
-              community, education, developer-relations, partnership, PR, or
-              hardware-disposition team.
+              For permanent physical hardware sponsorship, partnership questions,
+              or help routing this request to the appropriate team, contact Anthony
+              directly.
             </p>
-          </div>
+            <a
+              className="button button-primary"
+              href="mailto:aryancy22@gmail.com?subject=IGNOS%20Hardware%20Sponsorship%20Inquiry"
+            >
+              Contact Anthony
+            </a>
         </div>
         <p className="disclaimer">
           IGNOS is an independent project by a college student. It is not
