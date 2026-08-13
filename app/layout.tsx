@@ -8,8 +8,8 @@ export const metadata: Metadata = {
   authors: [{ name: "Anthony Yancy" }],
   creator: "Anthony Yancy",
   icons: {
-    icon: "/favicon.svg",
-    shortcut: "/favicon.svg"
+    icon: ""/ignos-logo.png"",
+    shortcut: ""/ignos-logo.png""
   }
 };
 
