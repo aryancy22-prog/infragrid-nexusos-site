@@ -48,10 +48,11 @@ export default function Home() {
           />
           <span>InfraGrid-NexusOS</span>
         </a>
-        <nav aria-label="Page navigation" <a href="#contact">Contact</a>>
+        <nav aria-label="Page navigation">
           <a href="#project">Project</a>
           <a href="#request">Request</a>
           <a href="#validation">Validation</a>
+          <a href="#contact">Contact</a>
         </nav>
       </header>
 
@@ -177,13 +178,13 @@ export default function Home() {
         </ul>
       </section>
 
-      <section className="section contact-section">
+      <section className="section contact-section" id="contact">
         <div className="contact-panel">
           <div>
             <span className="section-kicker">Start a conversation</span>
             <h2>Could your team help move IGNOS from software proof to physical validation?</h2>
           </div>
-        <div className="contact-copy">
+          <div className="contact-copy">
             <p>
               For permanent physical hardware sponsorship, partnership questions,
               or help routing this request to the appropriate team, contact Anthony
@@ -195,6 +196,7 @@ export default function Home() {
             >
               Contact Anthony
             </a>
+          </div>
         </div>
         <p className="disclaimer">
           IGNOS is an independent project by a college student. It is not
