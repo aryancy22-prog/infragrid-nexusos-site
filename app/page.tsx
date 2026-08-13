@@ -11,8 +11,8 @@ const contributionTypes = [
   },
   {
     number: "03",
-    title: "Credit or sponsorship",
-    text: "Store credit, a substantial educational discount, cash sponsorship, or cloud-GPU credits can reduce the remaining validation cost.",
+    title: "Purchase support or sponsorship",
+    text: "Store credit toward physical hardware, a substantial educational discount on physical hardware, or cash sponsorship can reduce the remaining validation cost.",
   },
 ];
 
