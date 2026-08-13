@@ -41,7 +41,7 @@ export default function Home() {
         <a className="brand" href="#top" aria-label="IGNOS sponsorship home">
           <img
             className="brand-logo"
-            src="/ignos-logo-transparent.png"
+            src="/ignos-logo.png"
             alt="InfraGrid-NexusOS logo"
             width={58}
             height={58}
