@@ -42,6 +42,13 @@ nav a:hover, nav a:focus-visible { color: #3a6410; }
 .hero h1 em { color: var(--acid); font-style: normal; }
 .hero-copy { color: #c9d5cf; font-size: 1.14rem; line-height: 1.65; margin: 0; max-width: 710px; position: relative; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 38px; position: relative; }
+.hero .hero-image-actions {
+  bottom: 190px;
+  left: 7vw;
+  margin-top: 0;
+  position: absolute;
+  z-index: 2;
+}
 .button { align-items: center; border: 1px solid transparent; display: inline-flex; font-family: "Courier New", Courier, monospace; font-size: 0.78rem; font-weight: 700; justify-content: center; letter-spacing: 0.06em; min-height: 48px; padding: 0 22px; text-transform: uppercase; transition: transform 160ms ease, background 160ms ease; }
 .button:hover, .button:focus-visible { transform: translateY(-2px); }
 .button-primary { background: var(--acid); color: var(--ink); }
