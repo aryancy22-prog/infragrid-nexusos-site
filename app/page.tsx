@@ -55,38 +55,15 @@ export default function Home() {
         </nav>
       </header>
 
-      <section className="hero" id="top">
-        <div className="hero-grid" aria-hidden="true" />
-        <div className="eyebrow"><span /> Hardware sponsorship brief</div>
-        <h1>
-          A student-built GPU orchestration platform needs a
-          <em> permanent validation workstation.</em>
-        </h1>
-        <p className="hero-copy">
-          Anthony Yancy is a college computer science student building IGNOS,
-          a pre-beta system designed to coordinate GPU compute across compatible
-          provider environments.
-        </p>
-        <div className="hero-actions">
-          <a className="button button-primary" href="#request">View the request</a>
-        </div>
-        <div className="proof-strip" aria-label="Student and project status">
-          <div>
-            <span className="proof-label">Builder</span>
-            <strong>College student</strong>
-          </div>
-          <div>
-            <span className="proof-label">Project ownership</span>
-            <strong>Independent</strong>
-          </div>
-          <div>
-            <span className="proof-label">Project stage</span>
-            <strong>Pre-beta validation</strong>
-          </div>
-          <div>
-            <span className="proof-label">Support requested</span>
-            <strong>Permanent, not a loan</strong>
-          </div>
+      <section
+        className="hero"
+        id="top"
+        aria-label="IGNOS hardware sponsorship brief"
+      >
+        <div className="hero-actions hero-image-actions">
+          <a className="button button-primary" href="#request">
+            View the request
+          </a>
         </div>
       </section>
 
