@@ -132,3 +132,72 @@ footer { background: var(--deep); color: #98aba2; display: flex; font-family: "C
   html { scroll-behavior: auto; }
   .button { transition: none; }
 }
+/* IGNOS black-and-neon theme */
+:root {
+  --ink: #020403;
+  --deep: #050a06;
+  --paper: #060907;
+  --paper-2: #0d140f;
+  --acid: #91ed00;
+  --text: #f4f6f2;
+  --muted: #a8b2aa;
+  --line: rgba(145, 237, 0, 0.22);
+}
+
+body {
+  background: var(--paper);
+  color: var(--text);
+}
+
+.site-header {
+  background: rgba(2, 4, 3, 0.94);
+  border-bottom-color: var(--line);
+  color: var(--text);
+}
+
+nav a:hover,
+nav a:focus-visible,
+.section-kicker,
+.section-kicker.light,
+.timeline-window {
+  color: var(--acid);
+}
+
+.body-copy,
+.request-heading p,
+.contact-copy,
+.contribution-card p,
+.timeline p,
+.disclaimer {
+  color: var(--muted);
+}
+
+.constraint-band {
+  background: #07120b;
+}
+
+.validation-section,
+.no-loan {
+  background: var(--paper-2);
+}
+
+.contribution-card {
+  border-top-color: var(--acid);
+}
+
+.no-loan {
+  border-left-color: var(--acid);
+}
+
+.timeline article {
+  border-color: var(--line);
+}
+
+.value-section,
+footer {
+  background: #020403;
+}
+
+.contact-panel {
+  border-color: var(--line);
+}
